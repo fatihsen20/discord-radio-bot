@@ -1,6 +1,7 @@
 # Discord Radio Bot
 - With these codes, you can create a radio bot that works on Discord using a .m3u8 streaming link!
 ## Installation(Docker Compose)
+- docker-compose file:
 ```
 version: '3.7'
 services:
@@ -14,4 +15,9 @@ services:
     restart: always
     ports:
       - '3000:3000'
+```
+
+- Shell:
+```
+docker-compose up --build -d
 ```
